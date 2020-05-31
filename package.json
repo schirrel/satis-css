@@ -1,0 +1,33 @@
+{
+  "name": "@schirrel/satis",
+  "version": "1.0.0",
+  "description": "A simple, responsise, functional and pure css kit",
+  "main": "main.css",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "example": "http-server example",
+    "build": "parcel build src/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schirrel/satis.git"
+  },
+  "keywords": [
+    "css",
+    "theme",
+    "template",
+    "admin"
+  ],
+  "author": "@schirrel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schirrel/satis/issues"
+  },
+  "homepage": "https://github.com/schirrel/satis#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4"
+  }
+}

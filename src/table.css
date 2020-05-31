@@ -1,0 +1,8 @@
+table {
+    width: 100%;
+    border-spacing: 0px;
+    padding: 5px;
+}
+thead th {
+    border-bottom: 1px solid var(--primaria);
+}

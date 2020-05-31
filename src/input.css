@@ -1,0 +1,86 @@
+.field, .field.control {
+  position: relative;
+  display: block;
+}
+
+input:not([type=checkbox]) {
+  padding: 10px;
+  margin: 15px 5px 10px;
+  border: 1px solid var(--primaria);
+  position: relative;
+  display: block;
+  width: 250px;
+  outline-color: var(--primaria) !important;
+  -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+  background: var(--background);
+  border-radius: 4px;
+}
+
+input:not([type=checkbox]):focus {
+  -webkit-box-shadow: 0px 8px 8px rgba(0, 0, 0, .2);
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, .2);
+  border: 1px solid var(--primaria);
+  outline-color: var(--primaria) !important;
+}
+
+input:not([type=checkbox])+label {
+  position: absolute;
+  pointer-events: none;
+  left: 15px;
+  margin-top: -40px;
+  z-index: 8;
+  -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+  color: var(--color);
+}
+
+input:not([type=checkbox])::-webkit-input-placeholder {
+  color: var(--background) !important;
+}
+
+input:not([type=checkbox])::-moz-placeholder {
+  color: var(--background) !important;
+}
+
+input:not([type=checkbox]):-ms-input-placeholder {
+  color: var(--background) !important;
+}
+
+input:not([type=checkbox])::-ms-input-placeholder {
+  color: var(--background) !important;
+}
+
+input:not([type=checkbox])::placeholder {
+  color: var(--background) !important;
+}
+
+input:not([type=checkbox]):focus::-webkit-input-placeholder {
+  color: var(--primaria) !important;
+}
+
+input:not([type=checkbox]):focus::-moz-placeholder {
+  color: var(--primaria) !important;
+}
+
+input:not([type=checkbox]):focus:-ms-input-placeholder {
+  color: var(--primaria) !important;
+}
+
+input:not([type=checkbox]):focus::-ms-input-placeholder {
+  color: var(--primaria) !important;
+}
+
+input:not([type=checkbox]):focus::placeholder {
+  color: var(--primaria) !important;
+}
+
+input:not([type=checkbox]):focus+label, input:not([type=checkbox]):not(:placeholder-shown)+label {
+  font-size: 12px;
+  margin-top: -55px;
+  background: var(--background);
+  color: var(--color);
+  padding: 0px 5px;
+}

@@ -1,0 +1,66 @@
+[data-tooltip] {
+  pointer-events: all;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  position: relative
+}
+
+[data-tooltip]:after, [data-tooltip]:before {
+  position: absolute;
+  display: block;
+  opacity: 0;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  -webkit-transform: scale(.2);
+  -ms-transform: scale(.2);
+  transform: scale(.2)
+}
+
+[data-tooltip]:after {
+  content: attr(title);
+  top: -2.2rem;
+  left: 50%;
+  background: #444857;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+  max-width: 60vw;
+  height: auto;
+  word-break: break-word;
+  min-height: 1%;
+}
+
+[data-tooltip]:hover:after {
+  opacity: 1
+}
+
+[data-tooltip]:before {
+  -webkit-transition: all 300ms ease, opacity 500ms ease;
+  -o-transition: all 300ms ease, opacity 500ms ease;
+  transition: all 300ms ease, opacity 500ms ease;
+  ;
+  content: '';
+}
+
+[data-tooltip]:hover:before {
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  background: #444857;
+  position: absolute;
+  left: 65%;
+  top: -11px;
+  -webkit-transform: scale(1) rotate(45deg) !important;
+  -ms-transform: scale(1) rotate(45deg) !important;
+  transform: scale(1) rotate(45deg) !important;
+}
+
+[data-tooltip]:hover:after, [data-tooltip]:hover:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1)
+}
