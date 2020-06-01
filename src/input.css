@@ -16,6 +16,7 @@ input:not([type=checkbox]) {
   transition: all 300ms;
   background: var(--background);
   border-radius: 4px;
+  line-height: 1rem;
 }
 
 input:not([type=checkbox]):focus {
@@ -79,7 +80,7 @@ input:not([type=checkbox]):focus::placeholder {
 
 input:not([type=checkbox]):focus+label, input:not([type=checkbox]):not(:placeholder-shown)+label {
   font-size: .75rem;
-  margin-top: -3.5rem;
+  margin-top: -3.75rem;
   background: var(--background);
   color: var(--color);
   padding: 0px 5px;
