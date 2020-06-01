@@ -98,7 +98,7 @@
   }
 }
 
-#switcher~.main {
+.main{
   --background: #f4f6f7;
   --color: #161617;
   --button: #ff3c41;

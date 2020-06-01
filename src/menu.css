@@ -1,4 +1,4 @@
-aside, main {
+body.with-menu aside, body.with-menu main {
   float: left;
   -webkit-transition: all 800ms ease;
   -o-transition: all 800ms ease;
@@ -44,11 +44,11 @@ input#menu+label:after {
   top: 20px;
 }
 
-input#menu:checked~aside, input#menu:checked~main {
+body.with-menu input#menu:checked~aside, body.with-menu input#menu:checked~main {
   margin-left: -150px
 }
 
-input#menu:checked~main {
+body.with-menu input#menu:checked~main {
   width: calc(100vw - 0px);
 }
 
@@ -71,12 +71,12 @@ input#menu:not(:checked)+label {
 }
 
 @media (max-width:768px) {
-  aside, main {
+  body.with-menu aside, body.with-menu main {
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
   }
-  input#menu:checked~aside, input#menu:checked~main {
+  body.with-menu input#menu:checked~aside, body.with-menu input#menu:checked~main {
     margin-left: -80px
   }
 }
