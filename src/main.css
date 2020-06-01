@@ -8,6 +8,10 @@
 @import url('./header.css');
 @import url('./menu.css');
 @import url('./loader.css');
+
+:root {
+  font-size:14px;
+}
 body {
   margin: 0;
   padding: 0;

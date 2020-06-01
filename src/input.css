@@ -78,8 +78,8 @@ input:not([type=checkbox]):focus::placeholder {
 }
 
 input:not([type=checkbox]):focus+label, input:not([type=checkbox]):not(:placeholder-shown)+label {
-  font-size: 12px;
-  margin-top: -55px;
+  font-size: .75rem;
+  margin-top: -3.5rem;
   background: var(--background);
   color: var(--color);
   padding: 0px 5px;
