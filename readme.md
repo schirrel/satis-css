@@ -6,10 +6,10 @@
 ### What SATIS is?
 Satis is a simple yet semi-funcional css library for you projects.
 
-### Exemples
-[Components]()
+### Examples
+[Components](https://schirrel.dev/satis-css/)
 
-[Admin Example]()
+[Admin Example](https://schirrel.dev/satis-css/example)
 
 ### References
 _______________________________
