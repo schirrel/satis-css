@@ -3,6 +3,7 @@ body.with-menu aside, body.with-menu main {
   -webkit-transition: all 800ms ease;
   -o-transition: all 800ms ease;
   transition: all 800ms ease;
+  height: 100vh;
 }
 
 input#menu, input#menu+label {

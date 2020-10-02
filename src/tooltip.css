@@ -64,3 +64,9 @@
   -ms-transform: scale(1);
   transform: scale(1)
 }
+.tooltip-content{
+  text-align: center;
+}
+#tooltip {
+  padding: 10px;
+}

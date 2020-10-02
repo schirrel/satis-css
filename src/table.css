@@ -5,4 +5,12 @@ table {
 }
 thead th {
     border-bottom: 1px solid var(--primaria);
+
+}
+td{
+   text-align: center;
+}
+
+#table{
+    padding: 10px;
 }
