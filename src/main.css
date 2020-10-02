@@ -71,11 +71,17 @@ aside {
   background: var(--secundaria);
   grid-area: sidebar
 }
-
+.content{
+  padding: 10px;
+}
+.content a{
+  color: blue;
+}
 main {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: content;
+  overflow: scroll;
   background: var(--background)
 }
 

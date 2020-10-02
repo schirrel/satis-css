@@ -10,7 +10,7 @@ input[type=checkbox]#modal-trigger+label, button, .button {
 	display: block;
 	background: var(--primaria);
 	color: white;
-	width: 40px;
+	width: 140px;
 	margin: 5px 5px;
 	cursor: pointer;
 	float: left;
@@ -19,7 +19,9 @@ input[type=checkbox]#modal-trigger+label, button, .button {
 	font-size: 14px;
 	text-align: center;
 }
-
+#modal{
+	padding: 10px;
+}
 #modal-trigger+label.small, button.small, .button.small {
 	padding: 4px 5px !important;
 	margin: 2px
