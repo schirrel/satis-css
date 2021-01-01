@@ -4,21 +4,6 @@ input[type=checkbox]#modal-trigger {
 	opacity: 0;
 }
 
-input[type=checkbox]#modal-trigger+label, button, .button {
-	border-radius: 4px;
-	padding: 10px 15px;
-	display: block;
-	background: var(--primaria);
-	color: white;
-	width: 140px;
-	margin: 5px 5px;
-	cursor: pointer;
-	float: left;
-	border: 2px solid var(--primaria);
-	font-family: 'Jost', sans-serif;
-	font-size: 14px;
-	text-align: center;
-}
 #modal{
 	padding: 10px;
 }

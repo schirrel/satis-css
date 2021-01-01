@@ -1,6 +1,6 @@
 {
   "name": "@schirrel/satis",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A simple, responsise, functional and pure css kit",
   "main": "dist/satis.css",
   "directories": {
@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/schirrel/satis-css#readme",
   "devDependencies": {
-    "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4"
   },
   "publishConfig": {

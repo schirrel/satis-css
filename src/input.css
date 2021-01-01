@@ -7,13 +7,13 @@
   padding: 10px;
 }
 
-input:not([type=checkbox]) {
+input:not([type=checkbox]), .input {
   padding: 10px;
   margin: 15px 5px 10px;
   border: 1px solid var(--primaria);
   position: relative;
   display: block;
-  width: 250px;
+  width: 100%;
   outline-color: var(--primaria) !important;
   -webkit-transition: all 300ms;
   -o-transition: all 300ms;
