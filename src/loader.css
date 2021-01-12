@@ -20,7 +20,7 @@
   overflow: hidden;
 }
 
-svg {
+.loader svg {
   max-height: 250px;
   stroke-dasharray: 1200;
   -webkit-animation: rotate 5s linear;
@@ -31,7 +31,7 @@ svg {
   animation-iteration-count: 1;
 }
 
-path {
+.loader path {
   stroke: black;
   stroke-width: 2px;
   fill: transparent;
