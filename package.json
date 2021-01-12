@@ -1,6 +1,6 @@
 {
   "name": "@schirrel/satis",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A simple, responsise, functional and pure css kit",
   "main": "dist/satis.css",
   "directories": {
