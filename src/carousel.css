@@ -6,7 +6,7 @@
 }
 
 .carousel__container::after{
-  content: '';
+  content: '<';
   color: white;
   width: 50px;
   height: 50px;
@@ -19,6 +19,23 @@
   font-size: 25pt;
   border-radius: 50%;
   left: 10px;
+  top: 50%;
+}
+
+.carousel__container::before{
+  content: '>';
+  color: white;
+  width: 50px;
+  height: 50px;
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 25pt;
+  border-radius: 50%;
+  right: 10px;
   top: 50%;
 }
 
