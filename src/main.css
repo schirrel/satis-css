@@ -119,6 +119,11 @@ li:hover {
   border-radius: 4px;
 }
 
+.carousel__example{
+  width: 800px;
+  margin: 20px auto;
+}
+
 .card.highlight {
   background: var(--primaria);
   color: white;
